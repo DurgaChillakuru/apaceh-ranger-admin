@@ -1,0 +1,16 @@
+2020-04-10 07:58:47,424 [C3P0PooledConnectionPoolManager[identityToken->z8kflta9qhb0wcdxv81v|6a457409]-HelperThread-#0] WARN  net.sf.log4jdbc.Slf4jSpyLogDelegator (Slf4jSpyLogDelegator.java:360) - select 1; ;
+ {executed in 112 msec}
+2020-04-10 07:58:47,424 [C3P0PooledConnectionPoolManager[identityToken->z8kflta9qhb0wcdxv81v|6a457409]-HelperThread-#1] WARN  net.sf.log4jdbc.Slf4jSpyLogDelegator (Slf4jSpyLogDelegator.java:360) - select 1; ;
+ {executed in 112 msec}
+2020-04-10 07:58:47,424 [C3P0PooledConnectionPoolManager[identityToken->z8kflta9qhb0wcdxv81v|6a457409]-HelperThread-#2] WARN  net.sf.log4jdbc.Slf4jSpyLogDelegator (Slf4jSpyLogDelegator.java:360) - select 1; ;
+ {executed in 112 msec}
+2020-04-10 07:59:54,554 [C3P0PooledConnectionPoolManager[identityToken->z8kflta9qhb0wcdxv81v|6a457409]-HelperThread-#1] ERROR net.sf.log4jdbc.Slf4jSpyLogDelegator (Slf4jSpyLogDelegator.java:352) - select 1; ;
+ {executed in 2223 msec}
+2020-04-10 07:59:54,554 [C3P0PooledConnectionPoolManager[identityToken->z8kflta9qhb0wcdxv81v|6a457409]-HelperThread-#2] ERROR net.sf.log4jdbc.Slf4jSpyLogDelegator (Slf4jSpyLogDelegator.java:352) - select 1; ;
+ {executed in 2163 msec}
+2020-04-10 07:59:54,554 [C3P0PooledConnectionPoolManager[identityToken->z8kflta9qhb0wcdxv81v|6a457409]-HelperThread-#0] ERROR net.sf.log4jdbc.Slf4jSpyLogDelegator (Slf4jSpyLogDelegator.java:352) - select 1; ;
+ {executed in 2163 msec}
+2020-04-10 07:59:55,187 [C3P0PooledConnectionPoolManager[identityToken->z8kflta9qhb0wcdxv81v|6a457409]-HelperThread-#1] ERROR net.sf.log4jdbc.Slf4jSpyLogDelegator (Slf4jSpyLogDelegator.java:352) - select 1; ;
+ {executed in 276 msec}
+2020-04-10 07:59:55,327 [C3P0PooledConnectionPoolManager[identityToken->z8kflta9qhb0wcdxv81v|6a457409]-HelperThread-#2] ERROR net.sf.log4jdbc.Slf4jSpyLogDelegator (Slf4jSpyLogDelegator.java:352) - select 1; ;
+ {executed in 318 msec}

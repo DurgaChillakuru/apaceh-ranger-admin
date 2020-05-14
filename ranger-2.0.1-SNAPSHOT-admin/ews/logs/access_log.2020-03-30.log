@@ -1,0 +1,8 @@
+127.0.0.1 - - [30/Mar/2020:22:30:54 +0000] "GET /login.jsp HTTP/1.1" 200 3629 "-" "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [30/Mar/2020:22:30:54 +0000] "GET /styles/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:6080/login.jsp" "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [30/Mar/2020:22:30:54 +0000] "GET /styles/xa.css HTTP/1.1" 304 - "http://localhost:6080/login.jsp" "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [30/Mar/2020:22:30:54 +0000] "GET /libs/bower/jquery/js/jquery-3.4.1.js HTTP/1.1" 304 - "http://localhost:6080/login.jsp" "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [30/Mar/2020:22:30:54 +0000] "GET /scripts/prelogin/XAPrelogin.js HTTP/1.1" 304 - "http://localhost:6080/login.jsp" "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [30/Mar/2020:22:30:54 +0000] "GET /images/logo.png HTTP/1.1" 200 4493 "http://localhost:6080/login.jsp" "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [30/Mar/2020:22:30:54 +0000] "GET /images/favicon.ico HTTP/1.1" 302 - "-" "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0"
+127.0.0.1 - - [30/Mar/2020:22:31:42 +0000] "GET /service/plugins/policies/download/hivedev?lastKnownVersion=-1&lastActivationTime=0&pluginId=hiveServer2%40localhost-hivedev&clusterName=&supportsPolicyDeltas=false HTTP/1.1" 200 14887 "-" "Java/1.8.0_222"

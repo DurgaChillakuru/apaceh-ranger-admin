@@ -1,0 +1,130 @@
+2020-03-25 15:31:03,984 [http-bio-6080-exec-6] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-03-25 15:31:03,985 [http-bio-6080-exec-6] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:0:0:0:0:0:0:0:1 | sessionId=7AFFA28B3CD6A32736B25F02BA598057 | Epoch=1585150263985
+2020-03-25 15:31:03,987 [http-bio-6080-exec-6] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-03-25 15:31:04,004 [http-bio-6080-exec-6] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-03-25 15:31:04,004 [http-bio-6080-exec-6] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=27, sessionId=7AFFA28B3CD6A32736B25F02BA598057, requestId=0:0:0:0:0:0:0:1, epoch=1585150264004
+2020-03-25 16:03:45,313 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:126) - Can't find keyTab Path : null
+2020-03-25 16:03:45,314 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:130) - Can't find principal : null
+2020-03-25 16:03:45,314 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.plugin.client.BaseClient.login(BaseClient.java:109)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:61)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:53)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:76)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-25 16:03:45,314 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:111) - Password decryption failed; trying connection with received password string
+2020-03-25 16:03:45,315 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:126) - Init Login: security not enabled, using username
+2020-03-25 16:03:45,315 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:93) - Since Password is NOT provided, Trying to use UnSecure client with username and password
+2020-03-25 16:03:45,315 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:716)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-25 16:03:45,315 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:718) - Password decryption failed; trying Hive connection with received password string
+2020-03-25 16:03:45,441 [timed-executor-pool-0] ERROR apache.ranger.services.hive.client.HiveClient$3 (HiveClient.java:117) - <== HiveClient getDatabaseList() :Unable to get the Database List
+org.apache.ranger.plugin.client.HadoopException: Unable to execute SQL [show databases like "*"].
+	at org.apache.ranger.services.hive.client.HiveClient.getDBList(HiveClient.java:200)
+	at org.apache.ranger.services.hive.client.HiveClient.access$400(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$3.run(HiveClient.java:114)
+	at org.apache.ranger.services.hive.client.HiveClient$3.run(HiveClient.java:107)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at org.apache.ranger.services.hive.client.HiveClient.getDatabaseList(HiveClient.java:107)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:829)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.hive.service.cli.HiveSQLException: Error while compiling statement: FAILED: HiveAccessControlException Permission denied: user [{USERNAME}] does not have [USE] privilege on [Unknown resource!!]
+	at org.apache.hive.jdbc.Utils.verifySuccess(Utils.java:300)
+	at org.apache.hive.jdbc.Utils.verifySuccessWithInfo(Utils.java:286)
+	at org.apache.hive.jdbc.HiveStatement.runAsyncOnServer(HiveStatement.java:324)
+	at org.apache.hive.jdbc.HiveStatement.execute(HiveStatement.java:265)
+	at org.apache.hive.jdbc.HiveStatement.executeQuery(HiveStatement.java:497)
+	at org.apache.ranger.services.hive.client.HiveClient.getDBList(HiveClient.java:179)
+	... 16 more
+Caused by: org.apache.hive.service.cli.HiveSQLException: Error while compiling statement: FAILED: HiveAccessControlException Permission denied: user [{USERNAME}] does not have [USE] privilege on [Unknown resource!!]
+	at org.apache.hive.service.cli.operation.Operation.toSQLException(Operation.java:335)
+	at org.apache.hive.service.cli.operation.SQLOperation.prepare(SQLOperation.java:199)
+	at org.apache.hive.service.cli.operation.SQLOperation.runInternal(SQLOperation.java:260)
+	at org.apache.hive.service.cli.operation.Operation.run(Operation.java:247)
+	at org.apache.hive.service.cli.session.HiveSessionImpl.executeStatementInternal(HiveSessionImpl.java:541)
+	at org.apache.hive.service.cli.session.HiveSessionImpl.executeStatementAsync(HiveSessionImpl.java:527)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hive.service.cli.session.HiveSessionProxy.invoke(HiveSessionProxy.java:78)
+	at org.apache.hive.service.cli.session.HiveSessionProxy.access$000(HiveSessionProxy.java:36)
+	at org.apache.hive.service.cli.session.HiveSessionProxy$1.run(HiveSessionProxy.java:63)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1762)
+	at org.apache.hive.service.cli.session.HiveSessionProxy.invoke(HiveSessionProxy.java:59)
+	at com.sun.proxy.$Proxy65.executeStatementAsync(Unknown Source)
+	at org.apache.hive.service.cli.CLIService.executeStatementAsync(CLIService.java:312)
+	at org.apache.hive.service.cli.thrift.ThriftCLIService.ExecuteStatement(ThriftCLIService.java:562)
+	at org.apache.hive.service.rpc.thrift.TCLIService$Processor$ExecuteStatement.getResult(TCLIService.java:1557)
+	at org.apache.hive.service.rpc.thrift.TCLIService$Processor$ExecuteStatement.getResult(TCLIService.java:1542)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.hive.service.auth.TSetIpAddressProcessor.process(TSetIpAddressProcessor.java:56)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:286)
+	... 3 more
+Caused by: org.apache.hadoop.hive.ql.security.authorization.plugin.HiveAccessControlException: Permission denied: user [{USERNAME}] does not have [USE] privilege on [Unknown resource!!]
+	at org.apache.ranger.authorization.hive.authorizer.RangerHiveAuthorizer.checkPrivileges(RangerHiveAuthorizer.java:806)
+	at org.apache.hadoop.hive.ql.Driver.doAuthorizationV2(Driver.java:1307)
+	at org.apache.hadoop.hive.ql.Driver.doAuthorization(Driver.java:1071)
+	at org.apache.hadoop.hive.ql.Driver.compile(Driver.java:698)
+	at org.apache.hadoop.hive.ql.Driver.compileInternal(Driver.java:1826)
+	at org.apache.hadoop.hive.ql.Driver.compileAndRespond(Driver.java:1773)
+	at org.apache.hadoop.hive.ql.Driver.compileAndRespond(Driver.java:1768)
+	at org.apache.hadoop.hive.ql.reexec.ReExecDriver.compileAndRespond(ReExecDriver.java:126)
+	at org.apache.hive.service.cli.operation.SQLOperation.prepare(SQLOperation.java:197)
+	... 26 more
+2020-03-25 16:03:45,445 [timed-executor-pool-0] ERROR apache.ranger.services.hive.client.HiveResourceMgr (HiveResourceMgr.java:50) - <== HiveResourceMgr.connectionTest Error: org.apache.ranger.plugin.client.HadoopException: Unable to execute SQL [show databases like "*"].
+2020-03-25 16:03:45,445 [timed-executor-pool-0] ERROR org.apache.ranger.services.hive.RangerServiceHive (RangerServiceHive.java:59) - <== RangerServiceHive.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: Unable to execute SQL [show databases like "*"].
+2020-03-25 16:03:45,445 [timed-executor-pool-0] ERROR org.apache.ranger.biz.ServiceMgr$TimedCallable (ServiceMgr.java:610) - TimedCallable.call: Error:org.apache.ranger.plugin.client.HadoopException: Unable to execute SQL [show databases like "*"].
+2020-03-25 16:03:45,446 [http-bio-6080-exec-1] ERROR org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:198) - ==> ServiceMgr.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: org.apache.ranger.plugin.client.HadoopException: Unable to execute SQL [show databases like "*"].

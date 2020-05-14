@@ -1,0 +1,21 @@
+2020-04-08 04:13:39,225 [http-bio-6080-exec-7] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-08 04:13:39,227 [http-bio-6080-exec-7] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:86) - Login Unsuccessful:admin | Ip Address:127.0.0.1 | Bad Credentials
+2020-04-08 04:13:39,244 [http-bio-6080-exec-7] INFO  apache.ranger.security.web.authentication.RangerAuthFailureHandler (RangerAuthFailureHandler.java:89) - Error Message : Bad credentials
+2020-04-08 04:13:46,259 [http-bio-6080-exec-7] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-08 04:13:46,261 [http-bio-6080-exec-7] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:127.0.0.1 | sessionId=7A6EB98512D7FE2EF2724FBA79958868 | Epoch=1586319226261
+2020-04-08 04:13:46,262 [http-bio-6080-exec-7] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-04-08 04:13:46,275 [http-bio-6080-exec-7] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-04-08 04:13:46,275 [http-bio-6080-exec-7] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=66, sessionId=7A6EB98512D7FE2EF2724FBA79958868, requestId=127.0.0.1, epoch=1586319226275
+2020-04-08 14:06:25,817 [http-bio-6080-exec-7] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-08 14:06:25,819 [http-bio-6080-exec-7] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:127.0.0.1 | sessionId=66FEFE985DB61CB0A7A48B5590DBF235 | Epoch=1586354785819
+2020-04-08 14:06:25,821 [http-bio-6080-exec-7] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-04-08 14:06:25,849 [http-bio-6080-exec-7] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-04-08 14:06:25,849 [http-bio-6080-exec-7] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=67, sessionId=66FEFE985DB61CB0A7A48B5590DBF235, requestId=127.0.0.1, epoch=1586354785849
+2020-04-08 16:03:21,044 [http-bio-6080-exec-3] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-08 16:03:21,049 [http-bio-6080-exec-3] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:86) - Login Unsuccessful:admin | Ip Address:127.0.0.1 | Bad Credentials
+2020-04-08 16:03:21,071 [http-bio-6080-exec-3] INFO  apache.ranger.security.web.authentication.RangerAuthFailureHandler (RangerAuthFailureHandler.java:89) - Error Message : Bad credentials
+2020-04-08 16:03:25,547 [http-bio-6080-exec-3] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-08 16:03:25,551 [http-bio-6080-exec-3] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:127.0.0.1 | sessionId=7AF896348A864BC06DA5B2D212A773F1 | Epoch=1586361805551
+2020-04-08 16:03:25,556 [http-bio-6080-exec-3] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-04-08 16:03:25,616 [http-bio-6080-exec-8] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-04-08 16:03:25,616 [http-bio-6080-exec-8] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=69, sessionId=7AF896348A864BC06DA5B2D212A773F1, requestId=127.0.0.1, epoch=1586361805616

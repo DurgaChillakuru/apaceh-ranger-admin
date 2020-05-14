@@ -1,0 +1,45 @@
+2020-03-27 18:52:16,635 [localhost-startStop-1] WARN  org.springframework.security.core.SpringSecurityCoreVersion (SpringSecurityCoreVersion.java:78) - **** You are advised to use Spring 4.3.23.RELEASE or later with this version. You are running: 4.3.20.RELEASE
+2020-03-27 18:52:17,322 [localhost-startStop-1] WARN  org.apache.hadoop.util.NativeCodeLoader (NativeCodeLoader.java:60) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-03-27 18:52:18,151 [localhost-startStop-1] INFO  org.apache.ranger.common.PropertiesUtil (PropertiesUtil.java:181) - Credential keystore password not applied for Audit DB; clear text password shall be applicable
+2020-03-27 18:52:19,869 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:118) - java.library.path is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2020-03-27 18:52:19,869 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:119) - Audit datasource is solr
+2020-03-27 18:52:20,717 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:164) - ==>SolrMgr.init()
+2020-03-27 18:52:20,718 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:173) - Loading SolrClient JAAS config from Ranger audit config if present...
+2020-03-27 18:52:20,724 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:178) - <==SolrMgr.init()
+2020-03-27 18:52:20,742 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:46) - ranger.plugin.activity.audit.commit.inline = false
+2020-03-27 18:52:20,742 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:50) - Will use separate thread for committing scheduled work
+2020-03-27 18:52:20,781 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-default-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-default-site.xml
+2020-03-27 18:52:20,782 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-site.xml
+2020-03-27 18:52:20,782 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(core-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/core-site.xml
+2020-03-27 18:52:21,511 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:128) - ==> EmbeddedServiceDefsUtil.init()
+2020-03-27 18:52:22,413 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,414 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,415 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,415 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,416 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,416 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,416 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,417 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,417 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,417 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,418 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,418 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,419 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,419 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,419 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,420 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,420 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:22,420 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:24,343 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:166) - <== EmbeddedServiceDefsUtil.init()
+2020-03-27 18:52:24,343 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4461) - ==> ServiceDBStore.getServiceUpgraded()
+2020-03-27 18:52:24,344 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4466) - Adding custom properties to services
+2020-03-27 18:52:24,353 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-03-27 18:52:24,430 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4463) - <== ServiceDBStore.getServiceUpgraded()
+2020-03-27 18:52:24,655 [localhost-startStop-1] INFO  apache.ranger.security.web.filter.RangerCSRFPreventionFilter (RangerCSRFPreventionFilter.java:82) - Adding cross-site request forgery (CSRF) protection
+2020-03-27 18:52:25,698 [http-bio-6080-exec-1] INFO  org.apache.ranger.service.filter.RangerRESTAPIFilter (RangerRESTAPIFilter.java:231) - Done rearranging. loopCount=0
+2020-03-27 18:52:25,698 [http-bio-6080-exec-1] INFO  org.apache.ranger.service.filter.RangerRESTAPIFilter (RangerRESTAPIFilter.java:239) - Loaded 0 API methods.
+2020-03-27 18:55:46,065 [http-bio-6080-exec-6] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-03-27 18:55:46,067 [http-bio-6080-exec-6] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:127.0.0.1 | sessionId=D30198A0772AD92021A79E44BD0CC254 | Epoch=1585335346067
+2020-03-27 18:55:46,079 [http-bio-6080-exec-6] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-03-27 18:55:46,140 [http-bio-6080-exec-6] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-03-27 18:55:46,140 [http-bio-6080-exec-6] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=34, sessionId=D30198A0772AD92021A79E44BD0CC254, requestId=127.0.0.1, epoch=1585335346140

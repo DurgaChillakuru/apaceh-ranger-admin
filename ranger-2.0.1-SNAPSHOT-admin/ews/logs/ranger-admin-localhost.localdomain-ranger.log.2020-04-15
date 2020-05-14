@@ -1,0 +1,1776 @@
+2020-04-15 06:01:39,031 [localhost-startStop-1] WARN  org.springframework.security.core.SpringSecurityCoreVersion (SpringSecurityCoreVersion.java:78) - **** You are advised to use Spring 4.3.23.RELEASE or later with this version. You are running: 4.3.20.RELEASE
+2020-04-15 06:01:39,696 [localhost-startStop-1] WARN  org.apache.hadoop.util.NativeCodeLoader (NativeCodeLoader.java:60) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-04-15 06:01:40,498 [localhost-startStop-1] INFO  org.apache.ranger.common.PropertiesUtil (PropertiesUtil.java:181) - Credential keystore password not applied for Audit DB; clear text password shall be applicable
+2020-04-15 06:01:42,328 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:118) - java.library.path is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2020-04-15 06:01:42,329 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:119) - Audit datasource is solr
+2020-04-15 06:01:43,177 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:164) - ==>SolrMgr.init()
+2020-04-15 06:01:43,177 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:173) - Loading SolrClient JAAS config from Ranger audit config if present...
+2020-04-15 06:01:43,184 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:178) - <==SolrMgr.init()
+2020-04-15 06:01:43,208 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:46) - ranger.plugin.activity.audit.commit.inline = false
+2020-04-15 06:01:43,208 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:50) - Will use separate thread for committing scheduled work
+2020-04-15 06:01:43,253 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-default-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-default-site.xml
+2020-04-15 06:01:43,253 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-site.xml
+2020-04-15 06:01:43,254 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(core-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/core-site.xml
+2020-04-15 06:01:43,984 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:128) - ==> EmbeddedServiceDefsUtil.init()
+2020-04-15 06:01:44,909 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,909 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,910 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,910 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,911 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,911 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,911 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,911 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,912 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,912 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,912 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,912 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,913 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,913 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,913 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,913 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,914 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:44,914 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:46,979 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:166) - <== EmbeddedServiceDefsUtil.init()
+2020-04-15 06:01:46,979 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4461) - ==> ServiceDBStore.getServiceUpgraded()
+2020-04-15 06:01:46,980 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4466) - Adding custom properties to services
+2020-04-15 06:01:46,998 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:46,999 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 06:01:47,092 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4463) - <== ServiceDBStore.getServiceUpgraded()
+2020-04-15 06:01:47,366 [localhost-startStop-1] INFO  apache.ranger.security.web.filter.RangerCSRFPreventionFilter (RangerCSRFPreventionFilter.java:82) - Adding cross-site request forgery (CSRF) protection
+2020-04-15 06:02:31,465 [http-bio-6080-exec-2] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-15 06:02:31,469 [http-bio-6080-exec-2] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:0:0:0:0:0:0:0:1 | sessionId=ECAFA446ED544E5886AD3520C502302B | Epoch=1586930551469
+2020-04-15 06:02:31,492 [http-bio-6080-exec-2] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-04-15 06:02:31,531 [http-bio-6080-exec-2] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-04-15 06:02:31,531 [http-bio-6080-exec-2] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=78, sessionId=ECAFA446ED544E5886AD3520C502302B, requestId=0:0:0:0:0:0:0:1, epoch=1586930551531
+2020-04-15 06:02:31,905 [http-bio-6080-exec-3] INFO  org.apache.ranger.service.filter.RangerRESTAPIFilter (RangerRESTAPIFilter.java:231) - Done rearranging. loopCount=0
+2020-04-15 06:02:31,906 [http-bio-6080-exec-3] INFO  org.apache.ranger.service.filter.RangerRESTAPIFilter (RangerRESTAPIFilter.java:239) - Loaded 0 API methods.
+2020-04-15 18:05:36,763 [localhost-startStop-1] WARN  org.springframework.security.core.SpringSecurityCoreVersion (SpringSecurityCoreVersion.java:78) - **** You are advised to use Spring 4.3.23.RELEASE or later with this version. You are running: 4.3.20.RELEASE
+2020-04-15 18:05:37,471 [localhost-startStop-1] WARN  org.apache.hadoop.util.NativeCodeLoader (NativeCodeLoader.java:60) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-04-15 18:05:38,555 [localhost-startStop-1] INFO  org.apache.ranger.common.PropertiesUtil (PropertiesUtil.java:181) - Credential keystore password not applied for Audit DB; clear text password shall be applicable
+2020-04-15 18:05:40,534 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:118) - java.library.path is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2020-04-15 18:05:40,534 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:119) - Audit datasource is solr
+2020-04-15 18:05:41,435 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:164) - ==>SolrMgr.init()
+2020-04-15 18:05:41,435 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:173) - Loading SolrClient JAAS config from Ranger audit config if present...
+2020-04-15 18:05:41,442 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:178) - <==SolrMgr.init()
+2020-04-15 18:05:41,459 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:46) - ranger.plugin.activity.audit.commit.inline = false
+2020-04-15 18:05:41,460 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:50) - Will use separate thread for committing scheduled work
+2020-04-15 18:05:41,498 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-default-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-default-site.xml
+2020-04-15 18:05:41,499 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-site.xml
+2020-04-15 18:05:41,499 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(core-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/core-site.xml
+2020-04-15 18:05:42,225 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:128) - ==> EmbeddedServiceDefsUtil.init()
+2020-04-15 18:05:43,123 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,123 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,124 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,125 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,125 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,126 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,126 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,126 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,126 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,126 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,127 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,127 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,127 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,127 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,128 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,128 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,128 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:43,128 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:45,022 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:166) - <== EmbeddedServiceDefsUtil.init()
+2020-04-15 18:05:45,023 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4461) - ==> ServiceDBStore.getServiceUpgraded()
+2020-04-15 18:05:45,023 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4466) - Adding custom properties to services
+2020-04-15 18:05:45,036 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:45,037 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:05:45,123 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4463) - <== ServiceDBStore.getServiceUpgraded()
+2020-04-15 18:05:45,401 [localhost-startStop-1] INFO  apache.ranger.security.web.filter.RangerCSRFPreventionFilter (RangerCSRFPreventionFilter.java:82) - Adding cross-site request forgery (CSRF) protection
+2020-04-15 18:15:09,743 [localhost-startStop-1] WARN  org.springframework.security.core.SpringSecurityCoreVersion (SpringSecurityCoreVersion.java:78) - **** You are advised to use Spring 4.3.23.RELEASE or later with this version. You are running: 4.3.20.RELEASE
+2020-04-15 18:15:10,388 [localhost-startStop-1] WARN  org.apache.hadoop.util.NativeCodeLoader (NativeCodeLoader.java:60) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-04-15 18:15:11,144 [localhost-startStop-1] INFO  org.apache.ranger.common.PropertiesUtil (PropertiesUtil.java:181) - Credential keystore password not applied for Audit DB; clear text password shall be applicable
+2020-04-15 18:15:12,811 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:118) - java.library.path is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2020-04-15 18:15:12,812 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:119) - Audit datasource is solr
+2020-04-15 18:15:13,650 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:164) - ==>SolrMgr.init()
+2020-04-15 18:15:13,650 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:173) - Loading SolrClient JAAS config from Ranger audit config if present...
+2020-04-15 18:15:13,656 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:178) - <==SolrMgr.init()
+2020-04-15 18:15:13,675 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:46) - ranger.plugin.activity.audit.commit.inline = false
+2020-04-15 18:15:13,675 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:50) - Will use separate thread for committing scheduled work
+2020-04-15 18:15:13,715 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-default-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-default-site.xml
+2020-04-15 18:15:13,715 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-site.xml
+2020-04-15 18:15:13,716 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(core-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/core-site.xml
+2020-04-15 18:15:14,427 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:128) - ==> EmbeddedServiceDefsUtil.init()
+2020-04-15 18:15:15,242 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,242 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,243 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,244 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,244 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,245 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,245 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,245 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,245 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,246 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,246 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,246 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,246 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,247 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,247 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,247 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,247 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:15,248 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:17,218 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:166) - <== EmbeddedServiceDefsUtil.init()
+2020-04-15 18:15:17,218 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4461) - ==> ServiceDBStore.getServiceUpgraded()
+2020-04-15 18:15:17,219 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4466) - Adding custom properties to services
+2020-04-15 18:15:17,224 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:17,225 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:15:17,240 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4463) - <== ServiceDBStore.getServiceUpgraded()
+2020-04-15 18:15:17,540 [localhost-startStop-1] INFO  apache.ranger.security.web.filter.RangerCSRFPreventionFilter (RangerCSRFPreventionFilter.java:82) - Adding cross-site request forgery (CSRF) protection
+2020-04-15 18:24:06,353 [localhost-startStop-1] WARN  org.springframework.security.core.SpringSecurityCoreVersion (SpringSecurityCoreVersion.java:78) - **** You are advised to use Spring 4.3.23.RELEASE or later with this version. You are running: 4.3.20.RELEASE
+2020-04-15 18:24:06,972 [localhost-startStop-1] WARN  org.apache.hadoop.util.NativeCodeLoader (NativeCodeLoader.java:60) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-04-15 18:24:07,749 [localhost-startStop-1] INFO  org.apache.ranger.common.PropertiesUtil (PropertiesUtil.java:181) - Credential keystore password not applied for Audit DB; clear text password shall be applicable
+2020-04-15 18:24:09,424 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:118) - java.library.path is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2020-04-15 18:24:09,425 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:119) - Audit datasource is solr
+2020-04-15 18:24:10,269 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:164) - ==>SolrMgr.init()
+2020-04-15 18:24:10,270 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:173) - Loading SolrClient JAAS config from Ranger audit config if present...
+2020-04-15 18:24:10,276 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:178) - <==SolrMgr.init()
+2020-04-15 18:24:10,295 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:46) - ranger.plugin.activity.audit.commit.inline = false
+2020-04-15 18:24:10,295 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:50) - Will use separate thread for committing scheduled work
+2020-04-15 18:24:10,338 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-default-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-default-site.xml
+2020-04-15 18:24:10,338 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-site.xml
+2020-04-15 18:24:10,338 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(core-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/core-site.xml
+2020-04-15 18:24:11,140 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:128) - ==> EmbeddedServiceDefsUtil.init()
+2020-04-15 18:24:11,986 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,987 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,988 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,988 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,988 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,988 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,989 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,989 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,989 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,989 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,990 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,990 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,990 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,990 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,991 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,991 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,991 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:11,991 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:13,971 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:166) - <== EmbeddedServiceDefsUtil.init()
+2020-04-15 18:24:13,971 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4461) - ==> ServiceDBStore.getServiceUpgraded()
+2020-04-15 18:24:13,971 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4466) - Adding custom properties to services
+2020-04-15 18:24:13,977 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:13,978 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 18:24:13,990 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4463) - <== ServiceDBStore.getServiceUpgraded()
+2020-04-15 18:24:14,232 [localhost-startStop-1] INFO  apache.ranger.security.web.filter.RangerCSRFPreventionFilter (RangerCSRFPreventionFilter.java:82) - Adding cross-site request forgery (CSRF) protection
+2020-04-15 18:24:23,098 [http-bio-6080-exec-5] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-15 18:24:23,101 [http-bio-6080-exec-5] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:0:0:0:0:0:0:0:1 | sessionId=C5F2CA62FC0085898F067EF4EDBBAA2C | Epoch=1586975063101
+2020-04-15 18:24:23,131 [http-bio-6080-exec-5] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-04-15 18:24:23,173 [http-bio-6080-exec-8] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-04-15 18:24:23,173 [http-bio-6080-exec-8] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=79, sessionId=C5F2CA62FC0085898F067EF4EDBBAA2C, requestId=0:0:0:0:0:0:0:1, epoch=1586975063173
+2020-04-15 18:24:23,523 [http-bio-6080-exec-6] INFO  org.apache.ranger.service.filter.RangerRESTAPIFilter (RangerRESTAPIFilter.java:231) - Done rearranging. loopCount=0
+2020-04-15 18:24:23,524 [http-bio-6080-exec-6] INFO  org.apache.ranger.service.filter.RangerRESTAPIFilter (RangerRESTAPIFilter.java:239) - Loaded 0 API methods.
+2020-04-15 20:44:55,216 [localhost-startStop-1] WARN  org.springframework.security.core.SpringSecurityCoreVersion (SpringSecurityCoreVersion.java:78) - **** You are advised to use Spring 4.3.23.RELEASE or later with this version. You are running: 4.3.20.RELEASE
+2020-04-15 20:44:55,914 [localhost-startStop-1] WARN  org.apache.hadoop.util.NativeCodeLoader (NativeCodeLoader.java:60) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-04-15 20:44:56,885 [localhost-startStop-1] INFO  org.apache.ranger.common.PropertiesUtil (PropertiesUtil.java:181) - Credential keystore password not applied for Audit DB; clear text password shall be applicable
+2020-04-15 20:44:58,789 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:118) - java.library.path is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2020-04-15 20:44:58,790 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:119) - Audit datasource is solr
+2020-04-15 20:44:59,683 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:164) - ==>SolrMgr.init()
+2020-04-15 20:44:59,683 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:173) - Loading SolrClient JAAS config from Ranger audit config if present...
+2020-04-15 20:44:59,690 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:178) - <==SolrMgr.init()
+2020-04-15 20:44:59,708 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:46) - ranger.plugin.activity.audit.commit.inline = false
+2020-04-15 20:44:59,708 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:50) - Will use separate thread for committing scheduled work
+2020-04-15 20:44:59,746 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-default-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-default-site.xml
+2020-04-15 20:44:59,747 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-site.xml
+2020-04-15 20:44:59,747 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(core-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/core-site.xml
+2020-04-15 20:45:00,514 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:128) - ==> EmbeddedServiceDefsUtil.init()
+2020-04-15 20:45:01,423 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,424 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,425 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,425 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,426 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,426 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,426 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,427 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,427 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,427 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,427 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,427 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,428 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,428 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,428 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,428 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,428 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:01,429 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:03,342 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:166) - <== EmbeddedServiceDefsUtil.init()
+2020-04-15 20:45:03,342 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4461) - ==> ServiceDBStore.getServiceUpgraded()
+2020-04-15 20:45:03,342 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4466) - Adding custom properties to services
+2020-04-15 20:45:03,356 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:03,356 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-15 20:45:03,441 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4463) - <== ServiceDBStore.getServiceUpgraded()
+2020-04-15 20:45:03,688 [localhost-startStop-1] INFO  apache.ranger.security.web.filter.RangerCSRFPreventionFilter (RangerCSRFPreventionFilter.java:82) - Adding cross-site request forgery (CSRF) protection
+2020-04-15 20:45:04,793 [http-bio-6080-exec-1] INFO  org.apache.ranger.service.filter.RangerRESTAPIFilter (RangerRESTAPIFilter.java:231) - Done rearranging. loopCount=0
+2020-04-15 20:45:04,793 [http-bio-6080-exec-1] INFO  org.apache.ranger.service.filter.RangerRESTAPIFilter (RangerRESTAPIFilter.java:239) - Loaded 0 API methods.
+2020-04-15 20:53:35,086 [http-bio-6080-exec-9] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-15 20:53:35,088 [http-bio-6080-exec-9] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:0:0:0:0:0:0:0:1 | sessionId=9A9A2612B10C9C67F8308191E2BF680C | Epoch=1586984015088
+2020-04-15 20:53:35,100 [http-bio-6080-exec-9] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-04-15 20:53:35,137 [http-bio-6080-exec-5] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-04-15 20:53:35,137 [http-bio-6080-exec-5] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=80, sessionId=9A9A2612B10C9C67F8308191E2BF680C, requestId=0:0:0:0:0:0:0:1, epoch=1586984015137
+2020-04-15 20:54:16,934 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/libfb303-0.9.3.jar
+2020-04-15 20:54:16,934 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-beeline-1.2.1.spark2.jar
+2020-04-15 20:54:16,935 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-metastore-1.2.1.spark2.jar
+2020-04-15 20:54:16,935 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-cli-1.2.1.spark2.jar
+2020-04-15 20:54:16,935 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/libthrift-0.9.3.jar
+2020-04-15 20:54:16,935 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-storage-api-2.7.0.jar
+2020-04-15 20:54:16,935 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-jdbc-1.2.1.spark2.jar
+2020-04-15 20:54:16,936 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-exec-1.2.1.spark2.jar
+2020-04-15 20:54:16,936 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/spark-hive_2.11-2.3.0.jar
+2020-04-15 20:54:16,936 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/ranger-hive-plugin-2.0.1-SNAPSHOT.jar
+2020-04-15 20:54:16,936 [http-bio-6080-exec-7] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/spark-hive-thriftserver_2.11-2.3.0.jar
+2020-04-15 20:54:16,978 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:126) - Can't find keyTab Path : null
+2020-04-15 20:54:16,978 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:130) - Can't find principal : null
+2020-04-15 20:54:16,983 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.plugin.client.BaseClient.login(BaseClient.java:109)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:61)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:53)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:76)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:54:16,984 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:111) - Password decryption failed; trying connection with received password string
+2020-04-15 20:54:16,984 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:126) - Init Login: security not enabled, using username
+2020-04-15 20:54:16,984 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:93) - Since Password is NOT provided, Trying to use UnSecure client with username and password
+2020-04-15 20:54:16,986 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:716)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:54:16,986 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:718) - Password decryption failed; trying Hive connection with received password string
+2020-04-15 20:54:16,986 [timed-executor-pool-0] ERROR apache.ranger.services.hive.client.HiveResourceMgr (HiveResourceMgr.java:50) - <== HiveResourceMgr.connectionTest Error: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:54:16,987 [timed-executor-pool-0] ERROR org.apache.ranger.services.hive.RangerServiceHive (RangerServiceHive.java:59) - <== RangerServiceHive.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:54:16,987 [timed-executor-pool-0] ERROR org.apache.ranger.biz.ServiceMgr$TimedCallable (ServiceMgr.java:610) - TimedCallable.call: Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:54:16,988 [http-bio-6080-exec-7] ERROR org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:198) - ==> ServiceMgr.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:11,138 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:126) - Can't find keyTab Path : null
+2020-04-15 20:57:11,138 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:130) - Can't find principal : null
+2020-04-15 20:57:11,138 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.plugin.client.BaseClient.login(BaseClient.java:109)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:61)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:53)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:76)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:57:11,139 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:111) - Password decryption failed; trying connection with received password string
+2020-04-15 20:57:11,139 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:126) - Init Login: security not enabled, using username
+2020-04-15 20:57:11,139 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:93) - Since Password is NOT provided, Trying to use UnSecure client with username and password
+2020-04-15 20:57:11,139 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:716)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:57:11,139 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:718) - Password decryption failed; trying Hive connection with received password string
+2020-04-15 20:57:11,139 [timed-executor-pool-0] ERROR apache.ranger.services.hive.client.HiveResourceMgr (HiveResourceMgr.java:50) - <== HiveResourceMgr.connectionTest Error: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:11,139 [timed-executor-pool-0] ERROR org.apache.ranger.services.hive.RangerServiceHive (RangerServiceHive.java:59) - <== RangerServiceHive.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:11,139 [timed-executor-pool-0] ERROR org.apache.ranger.biz.ServiceMgr$TimedCallable (ServiceMgr.java:610) - TimedCallable.call: Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:11,140 [http-bio-6080-exec-7] ERROR org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:198) - ==> ServiceMgr.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:23,144 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:126) - Can't find keyTab Path : null
+2020-04-15 20:57:23,144 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:130) - Can't find principal : null
+2020-04-15 20:57:23,145 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.plugin.client.BaseClient.login(BaseClient.java:109)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:61)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:53)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:76)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:57:23,146 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:111) - Password decryption failed; trying connection with received password string
+2020-04-15 20:57:23,146 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:126) - Init Login: security not enabled, using username
+2020-04-15 20:57:23,146 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:93) - Since Password is NOT provided, Trying to use UnSecure client with username and password
+2020-04-15 20:57:23,147 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:716)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:57:23,147 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:718) - Password decryption failed; trying Hive connection with received password string
+2020-04-15 20:57:23,235 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:57:23,260 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:57:23,283 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:57:23,306 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:57:23,306 [timed-executor-pool-0] ERROR apache.ranger.services.hive.client.HiveResourceMgr (HiveResourceMgr.java:50) - <== HiveResourceMgr.connectionTest Error: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:23,306 [timed-executor-pool-0] ERROR org.apache.ranger.services.hive.RangerServiceHive (RangerServiceHive.java:59) - <== RangerServiceHive.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:23,306 [timed-executor-pool-0] ERROR org.apache.ranger.biz.ServiceMgr$TimedCallable (ServiceMgr.java:610) - TimedCallable.call: Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:23,307 [http-bio-6080-exec-7] ERROR org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:198) - ==> ServiceMgr.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:45,568 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:126) - Can't find keyTab Path : null
+2020-04-15 20:57:45,569 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:130) - Can't find principal : null
+2020-04-15 20:57:45,570 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.plugin.client.BaseClient.login(BaseClient.java:109)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:61)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:53)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:76)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:57:45,570 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:111) - Password decryption failed; trying connection with received password string
+2020-04-15 20:57:45,570 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:126) - Init Login: security not enabled, using username
+2020-04-15 20:57:45,570 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:93) - Since Password is NOT provided, Trying to use UnSecure client with username and password
+2020-04-15 20:57:45,571 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:716)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:57:45,571 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:718) - Password decryption failed; trying Hive connection with received password string
+2020-04-15 20:57:45,571 [timed-executor-pool-0] ERROR apache.ranger.services.hive.client.HiveResourceMgr (HiveResourceMgr.java:50) - <== HiveResourceMgr.connectionTest Error: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:45,571 [timed-executor-pool-0] ERROR org.apache.ranger.services.hive.RangerServiceHive (RangerServiceHive.java:59) - <== RangerServiceHive.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:45,571 [timed-executor-pool-0] ERROR org.apache.ranger.biz.ServiceMgr$TimedCallable (ServiceMgr.java:610) - TimedCallable.call: Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:57:45,572 [http-bio-6080-exec-7] ERROR org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:198) - ==> ServiceMgr.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:59:37,267 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:126) - Can't find keyTab Path : null
+2020-04-15 20:59:37,267 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:130) - Can't find principal : null
+2020-04-15 20:59:37,267 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.plugin.client.BaseClient.login(BaseClient.java:109)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:61)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:53)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:76)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:37,268 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:111) - Password decryption failed; trying connection with received password string
+2020-04-15 20:59:37,268 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:126) - Init Login: security not enabled, using username
+2020-04-15 20:59:37,268 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:93) - Since Password is NOT provided, Trying to use UnSecure client with username and password
+2020-04-15 20:59:37,268 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:716)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:37,268 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:718) - Password decryption failed; trying Hive connection with received password string
+2020-04-15 20:59:37,269 [timed-executor-pool-0] ERROR apache.ranger.services.hive.client.HiveResourceMgr (HiveResourceMgr.java:50) - <== HiveResourceMgr.connectionTest Error: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:59:37,269 [timed-executor-pool-0] ERROR org.apache.ranger.services.hive.RangerServiceHive (RangerServiceHive.java:59) - <== RangerServiceHive.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:59:37,269 [timed-executor-pool-0] ERROR org.apache.ranger.biz.ServiceMgr$TimedCallable (ServiceMgr.java:610) - TimedCallable.call: Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:59:37,269 [http-bio-6080-exec-1] ERROR org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:198) - ==> ServiceMgr.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:59:47,308 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:126) - Can't find keyTab Path : null
+2020-04-15 20:59:47,308 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:130) - Can't find principal : null
+2020-04-15 20:59:47,309 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.plugin.client.BaseClient.login(BaseClient.java:109)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:61)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:53)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:76)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:47,309 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:111) - Password decryption failed; trying connection with received password string
+2020-04-15 20:59:47,310 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:126) - Init Login: security not enabled, using username
+2020-04-15 20:59:47,310 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:93) - Since Password is NOT provided, Trying to use UnSecure client with username and password
+2020-04-15 20:59:47,310 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:716)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:47,311 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:718) - Password decryption failed; trying Hive connection with received password string
+2020-04-15 20:59:49,245 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:49,280 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:49,313 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:49,341 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:49,372 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:49,399 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:49,428 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 20:59:49,429 [timed-executor-pool-0] ERROR apache.ranger.services.hive.client.HiveResourceMgr (HiveResourceMgr.java:50) - <== HiveResourceMgr.connectionTest Error: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:59:49,429 [timed-executor-pool-0] ERROR org.apache.ranger.services.hive.RangerServiceHive (RangerServiceHive.java:59) - <== RangerServiceHive.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:59:49,429 [timed-executor-pool-0] ERROR org.apache.ranger.biz.ServiceMgr$TimedCallable (ServiceMgr.java:610) - TimedCallable.call: Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 20:59:49,430 [http-bio-6080-exec-1] ERROR org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:198) - ==> ServiceMgr.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 21:03:25,112 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:126) - Can't find keyTab Path : null
+2020-04-15 21:03:25,113 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:130) - Can't find principal : null
+2020-04-15 21:03:25,114 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.plugin.client.BaseClient.login(BaseClient.java:109)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:61)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:53)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:76)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:03:25,114 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:111) - Password decryption failed; trying connection with received password string
+2020-04-15 21:03:25,114 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:126) - Init Login: security not enabled, using username
+2020-04-15 21:03:25,114 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:93) - Since Password is NOT provided, Trying to use UnSecure client with username and password
+2020-04-15 21:03:25,115 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:716)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:03:25,115 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:718) - Password decryption failed; trying Hive connection with received password string
+2020-04-15 21:03:25,139 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:03:25,161 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:03:25,181 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:03:25,201 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:03:25,221 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:03:25,240 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:03:25,259 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:03:25,279 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:03:25,280 [timed-executor-pool-0] ERROR apache.ranger.services.hive.client.HiveResourceMgr (HiveResourceMgr.java:50) - <== HiveResourceMgr.connectionTest Error: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 21:03:25,280 [timed-executor-pool-0] ERROR org.apache.ranger.services.hive.RangerServiceHive (RangerServiceHive.java:59) - <== RangerServiceHive.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 21:03:25,280 [timed-executor-pool-0] ERROR org.apache.ranger.biz.ServiceMgr$TimedCallable (ServiceMgr.java:610) - TimedCallable.call: Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 21:03:25,280 [http-bio-6080-exec-3] ERROR org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:198) - ==> ServiceMgr.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 21:09:48,056 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:126) - Can't find keyTab Path : null
+2020-04-15 21:09:48,056 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:130) - Can't find principal : null
+2020-04-15 21:09:48,058 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.plugin.client.BaseClient.login(BaseClient.java:109)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:61)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:53)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:76)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:48,058 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:111) - Password decryption failed; trying connection with received password string
+2020-04-15 21:09:48,059 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:126) - Init Login: security not enabled, using username
+2020-04-15 21:09:48,059 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:93) - Since Password is NOT provided, Trying to use UnSecure client with username and password
+2020-04-15 21:09:48,061 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:716)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:48,062 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:718) - Password decryption failed; trying Hive connection with received password string
+2020-04-15 21:09:49,821 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:49,851 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:49,881 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:49,906 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:49,935 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:49,960 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:49,985 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:50,008 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:50,029 [timed-executor-pool-0] ERROR org.apache.hive.jdbc.HiveConnection (HiveConnection.java:593) - Error opening session
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.transport.TSaslTransport.readLength(TSaslTransport.java:374)
+	at org.apache.thrift.transport.TSaslTransport.readFrame(TSaslTransport.java:451)
+	at org.apache.thrift.transport.TSaslTransport.read(TSaslTransport.java:433)
+	at org.apache.thrift.transport.TSaslClientTransport.read(TSaslClientTransport.java:38)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:86)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:425)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:321)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:225)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:77)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.recv_OpenSession(TCLIService.java:156)
+	at org.apache.hive.service.cli.thrift.TCLIService$Client.OpenSession(TCLIService.java:143)
+	at org.apache.hive.jdbc.HiveConnection.openSession(HiveConnection.java:583)
+	at org.apache.hive.jdbc.HiveConnection.<init>(HiveConnection.java:192)
+	at org.apache.hive.jdbc.HiveDriver.connect(HiveDriver.java:105)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:725)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-15 21:09:50,030 [timed-executor-pool-0] ERROR apache.ranger.services.hive.client.HiveResourceMgr (HiveResourceMgr.java:50) - <== HiveResourceMgr.connectionTest Error: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 21:09:50,030 [timed-executor-pool-0] ERROR org.apache.ranger.services.hive.RangerServiceHive (RangerServiceHive.java:59) - <== RangerServiceHive.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 21:09:50,030 [timed-executor-pool-0] ERROR org.apache.ranger.biz.ServiceMgr$TimedCallable (ServiceMgr.java:610) - TimedCallable.call: Error:org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 21:09:50,030 [http-bio-6080-exec-10] ERROR org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:198) - ==> ServiceMgr.validateConfig Error:org.apache.ranger.plugin.client.HadoopException: org.apache.ranger.plugin.client.HadoopException: Unable to connect to Hive Thrift Server instance.
+2020-04-15 23:48:50,343 [http-bio-6080-exec-8] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-15 23:48:50,345 [http-bio-6080-exec-8] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:0:0:0:0:0:0:0:1 | sessionId=A93E27C15A01FF94F5299A3E687E8E50 | Epoch=1586994530345
+2020-04-15 23:48:50,347 [http-bio-6080-exec-8] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-04-15 23:48:50,378 [http-bio-6080-exec-8] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-04-15 23:48:50,378 [http-bio-6080-exec-8] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=81, sessionId=A93E27C15A01FF94F5299A3E687E8E50, requestId=0:0:0:0:0:0:0:1, epoch=1586994530378

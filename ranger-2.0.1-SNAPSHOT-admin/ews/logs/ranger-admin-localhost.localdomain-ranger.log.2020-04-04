@@ -1,0 +1,118 @@
+2020-04-04 05:30:01,359 [localhost-startStop-1] WARN  org.springframework.security.core.SpringSecurityCoreVersion (SpringSecurityCoreVersion.java:78) - **** You are advised to use Spring 4.3.23.RELEASE or later with this version. You are running: 4.3.20.RELEASE
+2020-04-04 05:30:02,009 [localhost-startStop-1] WARN  org.apache.hadoop.util.NativeCodeLoader (NativeCodeLoader.java:60) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-04-04 05:30:02,792 [localhost-startStop-1] INFO  org.apache.ranger.common.PropertiesUtil (PropertiesUtil.java:181) - Credential keystore password not applied for Audit DB; clear text password shall be applicable
+2020-04-04 05:30:04,476 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:118) - java.library.path is /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2020-04-04 05:30:04,476 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:119) - Audit datasource is solr
+2020-04-04 05:30:05,288 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:164) - ==>SolrMgr.init()
+2020-04-04 05:30:05,288 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:173) - Loading SolrClient JAAS config from Ranger audit config if present...
+2020-04-04 05:30:05,295 [localhost-startStop-1] INFO  org.apache.ranger.solr.SolrMgr (SolrMgr.java:178) - <==SolrMgr.init()
+2020-04-04 05:30:05,314 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:46) - ranger.plugin.activity.audit.commit.inline = false
+2020-04-04 05:30:05,315 [localhost-startStop-1] INFO  org.apache.ranger.service.RangerPluginActivityLogger (RangerPluginActivityLogger.java:50) - Will use separate thread for committing scheduled work
+2020-04-04 05:30:05,357 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-default-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-default-site.xml
+2020-04-04 05:30:05,357 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(ranger-admin-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/ranger-admin-site.xml
+2020-04-04 05:30:05,358 [localhost-startStop-1] INFO  apache.ranger.authorization.hadoop.config.RangerConfiguration (RangerConfiguration.java:90) - addResourceIfReadable(core-site.xml): resource file is file:/usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/conf/core-site.xml
+2020-04-04 05:30:06,035 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:128) - ==> EmbeddedServiceDefsUtil.init()
+2020-04-04 05:30:06,835 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,835 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,836 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,836 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,836 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,837 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,837 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,837 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,837 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,837 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,838 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,838 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,838 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,838 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,839 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,839 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,839 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:06,839 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:08,740 [localhost-startStop-1] INFO  org.apache.ranger.plugin.store.EmbeddedServiceDefsUtil (EmbeddedServiceDefsUtil.java:166) - <== EmbeddedServiceDefsUtil.init()
+2020-04-04 05:30:08,740 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4461) - ==> ServiceDBStore.getServiceUpgraded()
+2020-04-04 05:30:08,740 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4466) - Adding custom properties to services
+2020-04-04 05:30:08,754 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:08,754 [localhost-startStop-1] INFO  org.apache.ranger.biz.RangerBizUtil (RangerBizUtil.java:1282) - User session not found, granting access.
+2020-04-04 05:30:08,836 [localhost-startStop-1] INFO  org.apache.ranger.biz.ServiceDBStore (ServiceDBStore.java:4463) - <== ServiceDBStore.getServiceUpgraded()
+2020-04-04 05:30:09,066 [localhost-startStop-1] INFO  apache.ranger.security.web.filter.RangerCSRFPreventionFilter (RangerCSRFPreventionFilter.java:82) - Adding cross-site request forgery (CSRF) protection
+2020-04-04 05:33:15,238 [http-bio-6080-exec-7] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-04 05:33:15,241 [http-bio-6080-exec-7] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:0:0:0:0:0:0:0:1 | sessionId=8EFB64051810BD5D6B8F6D456E30393B | Epoch=1585978395241
+2020-04-04 05:33:15,270 [http-bio-6080-exec-7] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-04-04 05:33:15,316 [http-bio-6080-exec-7] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-04-04 05:33:15,316 [http-bio-6080-exec-7] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=52, sessionId=8EFB64051810BD5D6B8F6D456E30393B, requestId=0:0:0:0:0:0:0:1, epoch=1585978395316
+2020-04-04 05:33:15,691 [http-bio-6080-exec-10] INFO  org.apache.ranger.service.filter.RangerRESTAPIFilter (RangerRESTAPIFilter.java:231) - Done rearranging. loopCount=0
+2020-04-04 05:33:15,692 [http-bio-6080-exec-10] INFO  org.apache.ranger.service.filter.RangerRESTAPIFilter (RangerRESTAPIFilter.java:239) - Loaded 0 API methods.
+2020-04-04 05:43:58,029 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/libfb303-0.9.3.jar
+2020-04-04 05:43:58,030 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-beeline-1.2.1.spark2.jar
+2020-04-04 05:43:58,030 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-metastore-1.2.1.spark2.jar
+2020-04-04 05:43:58,031 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-cli-1.2.1.spark2.jar
+2020-04-04 05:43:58,031 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/libthrift-0.9.3.jar
+2020-04-04 05:43:58,031 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-storage-api-2.7.0.jar
+2020-04-04 05:43:58,031 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-jdbc-1.2.1.spark2.jar
+2020-04-04 05:43:58,031 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/hive-exec-1.2.1.spark2.jar
+2020-04-04 05:43:58,032 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/spark-hive_2.11-2.3.0.jar
+2020-04-04 05:43:58,032 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/ranger-hive-plugin-2.0.1-SNAPSHOT.jar
+2020-04-04 05:43:58,032 [http-bio-6080-exec-2] WARN  org.apache.ranger.biz.ServiceMgr (ServiceMgr.java:455) - getFilesInDirectory('ranger-plugins/hive'): adding /usr/local/ranger-2.0.1-SNAPSHOT-admin/ews/webapp/WEB-INF/classes/ranger-plugins/hive/spark-hive-thriftserver_2.11-2.3.0.jar
+2020-04-04 05:43:58,070 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:126) - Can't find keyTab Path : null
+2020-04-04 05:43:58,070 [timed-executor-pool-0] WARN  org.apache.hadoop.security.SecureClientLogin (SecureClientLogin.java:130) - Can't find principal : null
+2020-04-04 05:43:58,074 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.plugin.client.BaseClient.login(BaseClient.java:109)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:61)
+	at org.apache.ranger.plugin.client.BaseClient.<init>(BaseClient.java:53)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:76)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-04 05:43:58,075 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:111) - Password decryption failed; trying connection with received password string
+2020-04-04 05:43:58,075 [timed-executor-pool-0] INFO  org.apache.ranger.plugin.client.BaseClient (BaseClient.java:126) - Init Login: security not enabled, using username
+2020-04-04 05:43:58,076 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:93) - Since Password is NOT provided, Trying to use UnSecure client with username and password
+2020-04-04 05:43:58,080 [timed-executor-pool-0] ERROR org.apache.ranger.plugin.util.PasswordUtils (PasswordUtils.java:165) - Unable to decrypt password due to error
+javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher
+	at com.sun.crypto.provider.CipherCore.prepareInputBuffer(CipherCore.java:1005)
+	at com.sun.crypto.provider.CipherCore.doFinal(CipherCore.java:848)
+	at com.sun.crypto.provider.PBES1Core.doFinal(PBES1Core.java:423)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineDoFinal(PBEWithMD5AndDESCipher.java:316)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164)
+	at org.apache.ranger.plugin.util.PasswordUtils.decrypt(PasswordUtils.java:150)
+	at org.apache.ranger.plugin.util.PasswordUtils.decryptPassword(PasswordUtils.java:138)
+	at org.apache.ranger.services.hive.client.HiveClient.initConnection(HiveClient.java:716)
+	at org.apache.ranger.services.hive.client.HiveClient.access$100(HiveClient.java:56)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:98)
+	at org.apache.ranger.services.hive.client.HiveClient$2.run(HiveClient.java:96)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.ranger.services.hive.client.HiveClient.initHive(HiveClient.java:96)
+	at org.apache.ranger.services.hive.client.HiveClient.<init>(HiveClient.java:77)
+	at org.apache.ranger.services.hive.client.HiveClient.connectionTest(HiveClient.java:827)
+	at org.apache.ranger.services.hive.client.HiveResourceMgr.connectionTest(HiveResourceMgr.java:48)
+	at org.apache.ranger.services.hive.RangerServiceHive.validateConfig(RangerServiceHive.java:57)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:660)
+	at org.apache.ranger.biz.ServiceMgr$ValidateCallable.actualCall(ServiceMgr.java:647)
+	at org.apache.ranger.biz.ServiceMgr$TimedCallable.call(ServiceMgr.java:608)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-04 05:43:58,080 [timed-executor-pool-0] INFO  apache.ranger.services.hive.client.HiveClient (HiveClient.java:718) - Password decryption failed; trying Hive connection with received password string
+2020-04-04 21:13:40,978 [http-bio-6080-exec-2] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-04-04 21:13:40,980 [http-bio-6080-exec-2] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:127.0.0.1 | sessionId=3DE263548A0BC37A9D06B7778E7A2425 | Epoch=1586034820980
+2020-04-04 21:13:40,981 [http-bio-6080-exec-2] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-04-04 21:13:41,017 [http-bio-6080-exec-10] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-04-04 21:13:41,017 [http-bio-6080-exec-10] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=53, sessionId=3DE263548A0BC37A9D06B7778E7A2425, requestId=127.0.0.1, epoch=1586034821017

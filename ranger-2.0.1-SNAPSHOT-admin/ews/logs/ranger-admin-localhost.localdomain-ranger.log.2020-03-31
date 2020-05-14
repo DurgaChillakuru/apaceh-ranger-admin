@@ -1,0 +1,5 @@
+2020-03-31 16:49:59,237 [http-bio-6080-exec-9] INFO  org.apache.ranger.security.handler.RangerAuthenticationProvider (RangerAuthenticationProvider.java:148) - Authentication with SHA-256 failed. Now trying with MD5.
+2020-03-31 16:49:59,240 [http-bio-6080-exec-9] INFO  org.apache.ranger.security.listener.SpringEventListener (SpringEventListener.java:70) - Login Successful:admin | Ip Address:127.0.0.1 | sessionId=14CF1BE6BDFB4F1744C6F9D0544CAC61 | Epoch=1585673399240
+2020-03-31 16:49:59,242 [http-bio-6080-exec-9] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:445) - admin is a valid user
+2020-03-31 16:49:59,258 [http-bio-6080-exec-9] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:232) - UserSession Updated to set new Permissions to User: admin
+2020-03-31 16:49:59,258 [http-bio-6080-exec-9] INFO  org.apache.ranger.biz.SessionMgr (SessionMgr.java:184) - Login Success: loginId=admin, sessionId=35, sessionId=14CF1BE6BDFB4F1744C6F9D0544CAC61, requestId=127.0.0.1, epoch=1585673399258
